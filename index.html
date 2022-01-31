@@ -15,7 +15,7 @@
 
 <body>
   <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -25,9 +25,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Shoes</a>
-            <a class="nav-link" href="#">Backpack</a>
-            <a class="nav-link">Subscribe</a>
+            <a class="nav-link" href="#shoes">Shoes</a>
+            <a class="nav-link" href="#backpack">Backpack</a>
+            <a class="nav-link" href="#subscribe">Subscribe</a>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@
 
   <main class="container">
     <section class="container overflow-hidden mt-5 categories">
-      <div class="row gx-5">
+      <div class="row g-5">
         <div class="col">
           <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
             <h1 class="text-white">Watch</h1>
@@ -112,7 +112,7 @@
     </section>
 
     <section class="mt-5">
-      <h3>Shoes</h3>
+      <h3 id="shoes">Shoes</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card panda-card h-100 shadow">
@@ -159,7 +159,7 @@
     </section>
 
     <section class="mt-5">
-      <h3>Backpack</h3>
+      <h3 id="backpack">Backpack</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card panda-card h-100 shadow">
@@ -205,7 +205,7 @@
       </div>
     </section>
 
-    <section style="height: 300px;" class="bg-info mt-5 d-flex align-items-center justify-content-center">
+    <section id="subscribe" style="height: 300px;" class="bg-info mt-5 d-flex align-items-center justify-content-center">
       <div>
         <h1>LET'S STAY IN TOUCH</h1>
         <h6>Get upades on sales, special and more</h6>
